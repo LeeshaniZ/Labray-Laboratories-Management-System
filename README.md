@@ -1,4 +1,28 @@
-# Labray
-Therefore, the comprehensive program, known as the LRIS (Laboratory and Radiology Information System), was developed to enhance radiology and laboratory operations. As a radiology information system that integrates a lab, LRIS has been proven to enhance the efficiency of the healthcare facilities and the overall patient care because the information from the two departments is processed in real-time. 
-Through the various functions of the system including the control of quality, reporting of results, monitoring the specimens, patient care, laboratory and radiology services, the provision of service is enhanced and made more efficient. 
-The following are the ways by which LRIS helps healthcare professionals: improvement of satisfaction of patients, decrease of costs, and an increase in the quality of the overall standard of the care by facilitating manual operations, decreasing the number of errors, and ensuring the fast processing of tasks. 
+# LabRay — Laboratory and Radiology Information System
+
+LabRay is a desktop information-system project intended to support laboratory and radiology workflows. The application is implemented with C# Windows Forms and targets .NET Framework 4.7.2.
+
+## Project focus
+
+The system is designed around the handling of laboratory and radiology information, including patient-related workflows, specimen tracking, result handling, and operational reporting. Refer to the source code for the functionality currently implemented.
+
+## Technology
+
+- C#
+- Windows Forms
+- .NET Framework 4.7.2
+
+## Getting started
+
+1. Use Windows with Visual Studio and the .NET Framework 4.7.2 developer targeting pack.
+2. Open the solution or project file under `src`.
+3. Restore or configure any third-party UI dependencies referenced by the project.
+4. Build and run the application from Visual Studio.
+
+## Dependencies
+
+Some UI libraries may be referenced by local file paths. A fresh clone may require those dependencies to be installed and the project references updated on the development machine.
+
+## Security and privacy
+
+Do not add real patient information, credentials, database backups, or other sensitive data to this repository. Use synthetic data for demonstrations.
